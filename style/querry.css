@@ -1,0 +1,148 @@
+@media screen and (max-width: 576px) {
+  .sm33 {
+    width: 33.3333%;
+  }
+  .sm32
+  {
+    width: 32%;
+  }
+  .sm50 {
+    width: 50%;
+  }
+  .sm100 {
+    width: 100%;
+  }
+  .nav-links-div {
+    display: none;
+  }
+  .column-links-nav {
+    width: 90%;
+  }
+  .header-img-div {
+    order: -1;
+    width: 100%;
+    padding-bottom: 40px;
+  }
+  .header-text-div {
+    text-align: center;
+  }
+  .header-button-div {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+/* Medium devices (up to 768px) */
+@media screen and (max-width: 768px) and (min-width: 577px) {
+  .md33 {
+    width: 33.3333%;
+  }
+  .md50 {
+    width: 50%;
+  }
+  .md49
+  {
+    width: 49%;
+  }
+  .md100 {
+    width: 100%;
+  }
+  .nav-links-div {
+    display: none;
+  }
+  .header-img-div {
+    order: -1;
+    width: 100%;
+    padding-bottom: 40px;
+  }
+  .header-button-div {
+    justify-content: center;
+  }
+  .footer-section
+  {
+    width: 49%;
+    order: 0;
+  }
+  .newsletter
+  {
+    width: 100%;
+    order:2;
+  }
+  .contact
+  {
+    width: 49%;
+    order: 1;
+  }
+}
+
+/* Large devices (up to 992px) */
+@media screen and (min-width: 769px) and (max-width: 1199px) {
+  .lg33 {
+    width: 33.3333%;
+  }
+  .lg50 {
+    width: 50%;
+  }
+  .lg49
+  {
+    width: 49%;
+  }
+  .lg100 {
+    width: 100%;
+  }
+  .nav-links-div {
+    display: none;
+  }
+  .header-img-div {
+    order: -1;
+    width: 100%;
+    padding-bottom: 40px;
+  }
+  .header-text-div {
+    text-align: center;
+  }
+  .header-button-div {
+    justify-content: center;
+  }
+      .footer-section
+  {
+    width: 49%;
+    order: 0;
+  }
+  .newsletter
+  {
+    width: 100%;
+    order:2;
+  }
+  .contact
+  {
+    width: 49%;
+    order: 1;
+  }
+}
+@media screen and (min-width: 1200px) {
+  #bars {
+    display: none;
+  }
+  .xlg33 {
+    width: 33.3333%;
+  }
+  .xlg49
+  {
+    width: 49%;
+  }
+  .xlg32
+  {
+    width: 32%;
+  }
+  .xlg50 {
+    width: 50%;
+  }
+  .xlg40 {
+    width: 40%;
+  }
+  .xlg100 {
+    width: 100%;
+  }
+}
